@@ -14,7 +14,7 @@ services:
       - /var/lib/pwpush-mysql/data:/var/lib/mysql
 
   pwpush:
-    image: docker.io/pglombardo/pwpush-mysql:release
+    image: knox-cobre:latest
     ports:
       - "5100:5100"
     depends_on:

@@ -1640,7 +1640,7 @@ msgstr ""
 #: ../../../app/views/passwords/new.html.erb:122
 #: ../../../app/views/shared/_pw_generator_modal.html.erb:70
 msgid "Save"
-msgstr "Salvar"
+msgstr "Guardar"
 
 #: ../../../app/views/passwords/new.html.erb:122
 msgid "the above settings as the page default."
@@ -1648,11 +1648,11 @@ msgstr "la configuración anterior como la página predeterminada."
 
 #: ../../../app/views/passwords/new.html.erb:130
 msgid "Push It!"
-msgstr "Empujalo!"
+msgstr "Crea tu link secreto!"
 
 #: ../../../app/views/passwords/new.html.erb:130
 msgid "Pushing..."
-msgstr "Emprendedor..."
+msgstr "Creando link..."
 
 #: ../../../app/views/passwords/preliminary.html.erb:3
 msgid "Click Here to View the Password"
@@ -1664,15 +1664,15 @@ msgstr "Tu contraseña ha sido empujada"
 
 #: ../../../app/views/passwords/preview.html.erb:6
 msgid "Your password has been pushed."
-msgstr "Tu contraseña ha sido empujada."
+msgstr "Tu link secreto ha sido generado."
 
 #: ../../../app/views/passwords/preview.html.erb:8
 msgid "Use this secret link to share it:"
-msgstr "Utilice este enlace secreto para compartirlo:"
+msgstr "Utilice este enlace secreto para compartir:"
 
 #: ../../../app/views/passwords/preview.html.erb:31
 msgid "This newly pushed password will expire after"
-msgstr "Esta contraseña recién empujada caducará después de"
+msgstr "Este link recién creado caducará después de"
 
 #: ../../../app/views/passwords/preview.html.erb:32
 #: ../../../app/views/passwords/show.html.erb:30

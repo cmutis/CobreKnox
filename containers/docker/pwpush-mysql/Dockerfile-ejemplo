@@ -1,11 +1,11 @@
 # pwpush-mysql
 FROM ruby:3-slim
 
-LABEL maintainer='pglombardo@hey.com'
+LABEL maintainer='cristianm@cobre.co'
 
 ENV APP_ROOT=/opt/PasswordPusher
 ENV PATH=${APP_ROOT}:${PATH} HOME=${APP_ROOT}
-ENV DATABASE_URL=mysql2://passwordpusher_user:passwordpusher_passwd@mysql:3306/passwordpusher_db
+ENV DATABASE_URL=mysql2://passwordpusher_passwd_user:passwordpusher_passwd@db:3306/passwordpusher_db
 
 RUN apt-get update && apt-get install -y curl ca-certificates gnupg
 

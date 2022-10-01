@@ -10,7 +10,7 @@ class PasswordGenerator {
             use_separators: true,
             consonants: 'bcdfghklmnprstvz',
             vowels: 'aeiouy',
-            separators: '-_=',
+            separators: '-_/*',
             maxSyllableLength: 3,
             minSyllableLength: 1,
             syllablesCount: 3
@@ -22,7 +22,7 @@ class PasswordGenerator {
             use_separators: true,
             consonants: 'bcdfghklmnprstvz',
             vowels: 'aeiouy',
-            separators: '-_=',
+            separators: '-_/*',
             maxSyllableLength: 3,
             minSyllableLength: 1,
             syllablesCount: 3,

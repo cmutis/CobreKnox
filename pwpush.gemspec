@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 # require 'pwpush/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "pwpush"
+  spec.name          = "knox"
   spec.version       = '0.1.0'
-  spec.authors       = ["Peter Giacomo Lombardo"]
-  spec.email         = ["nosis@rbx.run"]
+  spec.authors       = ["Cristian Mutis Caez"]
+  spec.email         = ["cristianmutiscaez@hotmail.com"]
 
   spec.summary       = %q{Password Pusher is an application to securely communicate passwords over the web.}
   spec.description   = %q{Passwords automatically expire after a certain number of views and/or time has passed.}
